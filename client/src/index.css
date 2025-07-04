@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply font-sans;
+}
+
+:root {
+  --sidebar-color:#2D66D0;
+  --input-color: #E8E8E8;
+  --table-color:#F4F3FF;
+  --dash-bg-color:#FFFFFF;
+  --sidebar-text-color:#FFFFFF;
+  --email-color:#199BEC;
+  --login-border-color: #FEC303;
+}
